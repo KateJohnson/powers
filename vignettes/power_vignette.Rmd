@@ -1,0 +1,35 @@
+---
+title: "Description of the 'Powers' package"
+author: "Kate Johnson"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package is intended to help you compute powers. To use it load:
+
+```{r}
+library(powers)
+```
+
+You can take the square of any vector.
+
+```{r}
+square(2)
+```
+
+Or the cube.
+
+```{r}
+cube(2)
+```
+
+Or an exponent of you choice!
+
+```{r}
+pow(2,3)
+```
+
