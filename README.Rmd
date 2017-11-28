@@ -22,4 +22,6 @@ The goal of the powers package is to make the computation of powers easier. Ther
 library(powers)
 
 pow(2,3)
+square(2)
+cube(3)
 ```

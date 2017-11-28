@@ -1,4 +1,4 @@
-context("Squaring non-numerics")
+context("Squaring tests")
 
 test_that("At least numeric values work.", {
   num_vec <- c(0, -4.6, 3.4)
