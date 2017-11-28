@@ -15,21 +15,35 @@ This package is intended to help you compute powers. To use it load:
 library(powers)
 ```
 
-You can take the square of any vector.
+You can take the **square** of any vector.
 
 ```{r}
 square(2)
 ```
 
-Or the cube.
+Or the **cube**.
 
 ```{r}
 cube(2)
 ```
 
-Or an exponent of you choice!
+Or an **exponent** of your choice!
 
 ```{r}
 pow(2,3)
+```
+
+The `pow()` function has a default exponent of 2.
+
+```{r}
+pow(2)
+```
+
+These functions also work on logicals or vectors.
+
+```{r}
+pow(c(1,2,3),2)
+
+pow(c(TRUE, FALSE, TRUE),2)
 ```
 
