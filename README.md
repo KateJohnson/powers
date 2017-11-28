@@ -3,7 +3,7 @@ powers
 
 The goal of the powers package is to make the computation of powers easier. There are built in functions to allow you to compute the square or cube of a vector, or compute an exponent of your choice.
 
-To load the powers use:
+To load the powers package use:
 
 ``` r
 library(devtools)
