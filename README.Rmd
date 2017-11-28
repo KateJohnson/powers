@@ -16,6 +16,26 @@ knitr::opts_chunk$set(
 
 The goal of the powers package is to make the computation of powers easier. There are built in functions to allow you to compute the square or cube of a vector, or compute an exponent of your choice. 
 
+To load the powers use:
+
+```{r}
+devtools::install_github("KateJohnson/powers")
+```
+
+Once the package is loaded, you can see a short description of powers using:
+
+```{r}
+library(powers)
+?powers
+```
+
+And the full vignette using:
+
+```{r}
+
+```
+
+
 ## Example
 
 ```{r example}
