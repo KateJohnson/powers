@@ -32,16 +32,18 @@ library(powers)
 And the full vignette using:
 
 ```{r}
-
+??"powers vignette"
 ```
 
 
-## Example
+## Examples
 
-```{r example}
-library(powers)
+There are three functions that are part of this package. 
 
+```{r}
 pow(2,3)
 square(2)
 cube(3)
 ```
+
+*Note:* This is a practice package for STAT 547, you can seem my reflections on that assignment (**for reviewers**) [here](https://github.com/KateJohnson/powers/blob/master/STAT547README.md)
