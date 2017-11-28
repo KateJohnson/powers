@@ -24,4 +24,4 @@ This is my powers package on Gituhb.
 
 - Your package should pass check() without errors (warnings and notes are OK, though it would be great if there were none).
 
-  * No errors, warnings or notes when I use 'check()'
+  * No errors, warnings when I use 'check()', but there is 1 note because I added ‘STAT547README.md’ at the top level which is "non-standard"
