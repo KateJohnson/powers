@@ -5,15 +5,10 @@ The goal of the powers package is to make the computation of powers easier. Ther
 
 To load the powers use:
 
-    #> Downloading GitHub repo KateJohnson/powers@master
-    #> from URL https://api.github.com/repos/KateJohnson/powers/zipball/master
-    #> Installing powers
-    #> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
-    #>   --no-environ --no-save --no-restore --quiet CMD INSTALL  \
-    #>   '/private/var/folders/ql/ngtplqkj62g7tkwqm413mkxm0000gn/T/RtmpSZ4s4w/devtools6a3e3cf43dbd/KateJohnson-powers-1ee059f'  \
-    #>   --library='/Library/Frameworks/R.framework/Versions/3.3/Resources/library'  \
-    #>   --install-tests
-    #> 
+``` r
+library(devtools)
+devtools::install_github("KateJohnson/powers")
+```
 
 Once the package is loaded, you can see a short description of powers using:
 

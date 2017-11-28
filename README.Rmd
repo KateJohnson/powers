@@ -18,7 +18,7 @@ The goal of the powers package is to make the computation of powers easier. Ther
 
 To load the powers use:
 
-```{r, echo=FALSE}
+```{r, eval = FALSE}
 library(devtools)
 devtools::install_github("KateJohnson/powers")
 ```
